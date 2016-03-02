@@ -9,7 +9,7 @@ box-sizing: border-box;
 .banner_image {
 margin: 0;
 padding: 0;
-height: 20rem;
+height: 18rem;
 width: 100%;
 position: absolute;
 right: 0;
@@ -17,11 +17,32 @@ top: 0;
 }
 
 .brand_logo {
-max-width: 4.5rem;
-height: 5.5rem;
+max-width: 6rem;
+height: 6.5rem;
 border-radius: 50%;
 position: fixed;
 left: 15%;
-top: 35%;
+top: 30%;
 border: 4px solid #f4f4f4;
+}
+
+
+.side-bar_item {
+  background: #beff05;
+  width: 15%;
+position: fixed;
+top: 45%;
+right: 70%;
+}
+
+.main-article_container {
+  background: #ff04e6;
+  width: 45%;
+  position: fixed;
+  top: 45%;
+  left: 33%;
+}
+
+.app-container {
+
 }
