@@ -7,11 +7,19 @@ box-sizing: border-box;
 }
 
 .banner_image {
-
+margin: 0;
+padding: 0;
+height: 20rem;
+width: 100%;
+background: #25a210;
 }
 
 .brand_logo {
-max-width: 9rem;
-height: 11rem;
+max-width: 4.5rem;
+height: 5.5rem;
 border-radius: 50%;
+position: fixed;
+left: 15%;
+top: 40%;
+border: 4px solid #f4f4f4;
 }
