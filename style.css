@@ -11,5 +11,7 @@ box-sizing: border-box;
 }
 
 .brand_logo {
-
+max-width: 9rem;
+height: 11rem;
+border-radius: 50%;
 }
