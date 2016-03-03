@@ -46,6 +46,6 @@ border: 4px solid #f4f4f4;
   max-width: 15%;
 }
 
-.app-container {
-
+.search_bar {
+  border-top: 1px solid grey;
 }
