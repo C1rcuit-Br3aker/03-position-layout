@@ -1,46 +1,46 @@
 * {
 box-sizing: border-box;
+font-size: 1rem;
 }
 
 *::before, *::after {
 box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
 .banner_image {
-margin: 0;
-padding: 0;
 height: 18rem;
 width: 100%;
-position: absolute;
 right: 0;
 top: 0;
 }
 
 .brand_logo {
-max-width: 6rem;
+width: 6.5rem;
 height: 6.5rem;
 border-radius: 50%;
-position: fixed;
+position: absolute;
 left: 15%;
 top: 30%;
 border: 4px solid #f4f4f4;
 }
 
-
-.side-bar_item {
-  background: #beff05;
-  width: 15%;
-position: fixed;
-top: 45%;
-right: 70%;
+.bulk_content {
+  background: #ee650d;
+  text-align: center;
 }
 
 .main-article_container {
-  background: #ff04e6;
-  width: 45%;
-  position: fixed;
-  top: 45%;
-  left: 33%;
+  max-width: 60%;
+  background: #18e83a;
+}
+
+.side-bar_item {
+  text-align: right;
+  background: #beff05;
+  max-width: 15%;
 }
 
 .app-container {
