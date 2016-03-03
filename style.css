@@ -36,6 +36,8 @@ border: 4px solid #f4f4f4;
 
 .main-article_content {
   text-align: center;
+  max-width: 80%;
+  float: right;
 }
 
 .side-bar_item {
