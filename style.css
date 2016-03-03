@@ -1,6 +1,5 @@
 * {
 box-sizing: border-box;
-font-size: 1rem;
 }
 
 *::before, *::after {
@@ -15,6 +14,7 @@ height: 18rem;
 width: 100%;
 right: 0;
 top: 0;
+position: relative;
 }
 
 .brand_logo {
@@ -27,19 +27,20 @@ top: 30%;
 border: 4px solid #f4f4f4;
 }
 
-.bulk_content {
-  background: #ee650d;
+.main-article_container {
+  max-width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.main-article_content {
   text-align: center;
 }
 
-.main-article_container {
-  max-width: 60%;
-  background: #18e83a;
-}
-
 .side-bar_item {
-  text-align: right;
-  background: #beff05;
+  text-align: center;
+  float: left;
   max-width: 15%;
 }
 
