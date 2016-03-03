@@ -32,12 +32,29 @@ border: 4px solid #f4f4f4;
   text-align: center;
   margin: auto;
   padding-top: 4rem;
+  font-family: sans-serif;
+  color: #444444;
 }
 
 .main-article_content {
   text-align: center;
   max-width: 80%;
   float: right;
+}
+
+.main-article_title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.main-article_author {
+font-size: 1rem;
+font-weight: 200;
+}
+
+.main-article_text {
+  font-family: monospace;
+  font-size: 2rem;
 }
 
 .side-bar_item {
